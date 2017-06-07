@@ -1,0 +1,36 @@
+div.bord {
+			font-family:	Myriad Pro;
+			background:		#ffd; /*lichtgeel*/
+			float:			left;
+			margin:			13px;
+			padding: 		13px;
+			text-align:		center;
+			width:			300px;
+		 }
+
+div.bord 2 {
+			font-family:	Myriad Pro;
+			background: 	#ffd; /*lichtgeel*/
+			float:			left;
+			margin:			13px;
+			padding:		13px;
+			text-align:		center;
+			width:			300px;
+
+		   }
+
+
+body {
+			font-family:	Myriad Pro;
+			background:		#690; /*middelgroen*/
+			color:			#005d25; /*donkergroen*/
+			font-size:		100%; /*gebruikersvoorkeur*/
+			margin:			0; /*marges uitschakelen*/
+			padding:		0; /*padding uitschakelen*/
+	 }
+
+h1 {
+			background:		#ffd; /*zelfde lichtgeel als de borden*/
+			margin:			0;/*kop tegen de bovenrand van het venster*/
+			padding:		13px; /*ruimte rondom de tekst*/
+   }

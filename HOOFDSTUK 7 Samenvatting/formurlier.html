@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang=nl>
+	<head>
+		<meta charset=utf-8>
+		<title>formulier</title>
+	</head>
+	<body>
+		<h1>Formulier</h1>
+		<form>
+			<fieldset id="persoonsgegevens">
+				<legend>persoonsgegevens</legend>
+				<label for="naam" id="naamlabel">Achternaam:</label>
+				<input id="naam" value="tik hier je naam" type="text"><br /><br />
+				<input id="ja" name="reclame" type="radio" value="ja">
+				<label for="ja">Ik ontvang graag uw leuke nieuwsbrief</label><br />
+				<input id="nee" name="reclame" type="radio" value="nee">
+				<label for="nee">Nee, ga weg met je rommel!</label><br />
+				
+				<select id="eten" name="soorteten">
+					<option disabled>kies</option>
+					<option>patat</option>
+					<option>taart</option>
+					<option>fruit</option>
+					<option> dode visjes</option>
+				</select>
+				<br /><br />
+				<input id="knop" value="stuur" type="button">
+			</fieldset>
+		</form>
+	</body>
+</html>

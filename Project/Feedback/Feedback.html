@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang=nl>
+<!-- Project Thang Phan & Wang-Ho Shi -->
+<!-- Datum ~ 3-10-2016 -->
+	<head>
+		<meta charset=utf-8>
+		<meta name=description content="Good Game Easy">
+		<meta name=keywords content="Games, E-Sports, Riotgames">
+		<link rel="stylesheet" href="../webshop.css">
+			<title> Good Game Easy </title>
+			
+	</head>
+	<body>
+		<h1> 
+			<img src="../Logo/Logo.png" width="200" alt="Good Game Easy Logo" > </br>
+			Good Game Easy
+		</h1>
+		<nav>
+			<ul>
+				<li>
+					<a href="../home/home.html">Home</a>
+				</li>
+				<li>
+					<a href="../products/products.html">Products 
+						<span class="caret">
+						</span>
+					 </a>
+					<div>
+						<ul>
+							<li><a href="../products/Games.html#Games">Games</a></li>
+							<li><a href="../products/Consoles.html#Consoles">Consoles</a></li>
+							<li><a href="../products/Accessoires.html">Accessoires</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="../about/about.html">About</a></li>
+				<li><a href="../help/help.html">Help</a></li>
+				<li><a href="../contact/contact.html">Contact</a></li>
+				<li><a href="./feedback.html">Feedback</a></li>
+			</ul>
+		</nav>
+		
+			<h2> Feedback?? </h2>
+		<main>
+<div id="centered">
+		<form>
+		<legend>Vul hier uw gegevens in</legend>
+			<fieldset id="persoonsgegevens">
+				<label for="name" id="voornaamlabel">Voor-achter naam</label>
+				<input id="name" value="" type="text"><br /><br />
+				<label for="age" id="leeftijdlabel">leeftijd</label>
+				<input id="age" value="" type="text"><br /><br />
+				<label for="city" id="citylabel">Plaats</label>
+				<input id="city" value="" type="text"><br /><br />
+				<label for="like/dislike" id="like/diselikelabel">Wat vindt u van onze webshop?</label>
+				<input id="like" name="like/dislike" type="radio" value="like">
+				<label for="like">Leuk</label>
+				<input id="dislike" name="like/dislike" type="radio" value="dislike">
+				<label for="dislike">Niet leuk</label><br /><br />
+				
+				
+				<label for="rate" id="ratelabel">Welke cijfer zou u geven??</label>
+				<select id="rate" name="">
+					<option "disabled">kies</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+
+
+				<label for="sugesstion" id="suggestielabel">Heeft u nog meer suggesties?</label>
+				<textarea> </textarea>
+				<label for="uploaden" id="uploadlabel">Hier kunt u wat uploaden</label>
+				<input type="hidden" name="hidden_value" value="Deze waarde zie je niet, maar het wordt wel met het formulier mee gezonden" />
+				<input type="hidden" name="MAX_FILE_SIZE" value="83886080" />
+				<form action="script.php" method="post" enctype="multipart/form-data">
+				<input type="file" />
+				<br /><br />
+				
+				
+				<a href="mailto:goodgameeasy@gmail.com?subject=contact"> <input id="knop" value="stuur" type="button">
+			</fieldset>
+		</form>	
+</div>		
+		<!--   !! TOEGEVOEGD aan kopie !! -->
+		<footer> 
+			<a href="../copyright.html">
+				copyrighty-tighty
+			</a> 
+		</footer>
+		<!-- /\ /\ /\ -->
+	</body>
+</html>

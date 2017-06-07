@@ -1,0 +1,91 @@
+
+
+/* demonstratie van padding en margin */
+
+body {
+       text-align	: center;
+	   background	: #060;	/* donkergroen */
+	   padding		: 0;
+	   margin		: 0 20&;
+	   
+	 }
+
+
+h1	 {
+	   text-align	: center;
+	   padding		: 0;
+	   margin		: 0 0 0;
+	   color		: #9c0;		/* groen */
+	   background	: #efef54;	/* lichtgroen */
+	 }
+
+h2	 {
+	   text-align	: center;
+	   padding		: 0;
+	   margin		: 0 0 0;
+	   color		: #d9ffd9;	/* lichtgroen */
+	   background	: #9c0;		/* groen */
+	 }
+
+p 	 {
+	   text-align	: center;
+	   padding		: 0;	
+	   margin		: 0 0 0;
+	   color		: #333; 	/* donkergrijs */
+	   background	: #d9ffd9;	/* lichtgroen */
+	 }
+  
+ 
+/* stijlen voor tekst body */
+
+
+Body {
+	 Font-family	: Myriad Pro, regular;
+	 font-size		: 100% ;
+	 color			: #22; 
+	 background		: silver;
+	 border			: 20px inset maroon;
+	 }
+	 
+h1	 {
+	 border			: 12px outset #ccc; /* maroon */
+	 font-variant	: small-caps;
+	 text-align		: center;
+	 font-weight	: bold;
+	 font-size		: 40px;
+	 color			: white;
+	 background		: black;
+	 border			: 12px solid #ccc; /* white */
+	 border-style	: outset;
+	 text-transform	: uppercases;
+	 }
+	 
+h2 	 {
+	 text-align		: center;
+	 font-weight	: semi-bold;
+	 font-size		: 20;
+	 color			: maroon;
+	 border			: 10px double black;
+	 border-style	: outset;
+
+
+	 
+	 }
+
+p 	 {
+	 text-align		: center;
+	 font-size		: 14px;
+	 color			: teal;
+	 border-width	: 1em thin 1em 50px;
+	 border-color	: maroon maroon white silver;
+	 border-style	: solid outset;
+	 margin			: 0 0 0;
+	 }
+	 
+a 	 {
+	 text-align		: center;
+	 font-style		: italic;
+	 color			: blue;
+	 font-size		: 10;
+	 
+	 }

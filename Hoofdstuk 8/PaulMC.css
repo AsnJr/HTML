@@ -1,0 +1,27 @@
+img.portret {	/* portret*/
+	float	: left;
+			}
+
+h1 {
+	background	: #eea;
+	color		: maroon;
+	text-align	: right;
+	float		: float;
+	width		: 12em;
+	height		: 2em;
+	}
+	
+
+p {
+	clear	: both;
+  }
+
+p {
+	clear	: left;
+  }
+h1 img {border: solid 4px maroon}
+
+img.hoes {	/*hoes*/
+	float	: right;
+		 }
+p img {border: solid 4px maroon}
